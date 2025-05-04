@@ -1,0 +1,167 @@
+{
+  "countries": [
+    {
+      "uid": "1",
+      "code": "uk",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
+    }
+  ],
+  "people": [
+    {
+      "uid": "1",
+      "name": "VIP1",
+      "country": "1",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "uid": "2",
+      "name": "VIP2",
+      "country": "1",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "uid": "3",
+      "name": "VIP3",
+      "country": "1",
+      "imageUrl": "https://images.unsplash.com/photo-1521566652839-697aa473761a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8fDB8fHww"
+    }
+  ],
+  "relations": [
+    {
+      "uid": "1",
+      "title": "Chief of State",
+      "name": "King Charles III",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "2",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "3",
+      "title": "Head of Government",
+      "name": "Sir Keir Starmer",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "4",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "5",
+      "title": "Chief of State",
+      "name": "King Charles III",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "6",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "7",
+      "title": "Head of Government",
+      "name": "Sir Keir Starmer",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "positive",
+      "person": "1"
+    },
+    {
+      "uid": "8",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "9",
+      "title": "Chief of State",
+      "name": "King Charles III",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "10",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "11",
+      "title": "Head of Government",
+      "name": "Sir Keir Starmer",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "12",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "13",
+      "title": "Chief of State",
+      "name": "King Charles III",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "14",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "15",
+      "title": "Head of Government",
+      "name": "Sir Keir Starmer",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "neutral",
+      "person": "1"
+    },
+    {
+      "uid": "16",
+      "title": "Head of Government",
+      "name": "Prime Minister Liz Truss",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+      "relationType": "negative",
+      "person": "1"
+    },
+    {
+      "uid": "17",
+      "title": "Chief of State",
+      "name": "King Charles III",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "relationType": "negative",
+      "person": "1"
+    }
+  ]
+}

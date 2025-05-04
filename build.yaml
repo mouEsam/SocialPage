@@ -1,0 +1,43 @@
+targets:
+  $default:
+    builders:
+      source_gen:combining_builder:
+        options:
+          preamble: |
+            // coverage:ignore-file
+      json_serializable:
+        options:
+          # Options configure how source code is generated for every
+          # `@JsonSerializable`-annotated class in the package.
+          #
+          # The default value for each is listed.
+          any_map: false
+          checked: false
+          constructor: ""
+          create_factory: true
+          create_field_map: false
+          create_json_keys: false
+          create_per_field_to_json: false
+          create_to_json: true
+          disallow_unrecognized_keys: false
+          explicit_to_json: false
+          field_rename: none
+          generic_argument_factories: false
+          ignore_unannotated: false
+          include_if_null: true
+      riverpod_generator:
+        options:
+          # Could be changed to "my", such that riverpod_generator
+          # would generate "myCountProvider" instead of "countProvider"
+          provider_name_prefix: "" # (default)
+          # Similar to provider_name_prefix, this is an option for renaming
+          # providers with parameters ("families").
+          # This takes precedence over provider_name_prefix.
+          provider_family_name_prefix: "" # (default)
+          # Could be changed to "Pod", such that riverpod_generator
+          # would generate "countPod" instead of "countProvider"
+          provider_name_suffix: "Provider" # (default)
+          # Similar to provider_name_suffix, this is an option for renaming
+          # providers with parameters ("families").
+          # This takes precedence over provider_name_suffix.
+          provider_family_name_suffix: "Provider" # (default)

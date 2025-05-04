@@ -1,0 +1,17 @@
+{
+  "relations": {
+    "people": {
+      "title": "Relations"
+    }
+  },
+  "values": {
+    "countries": {
+      "uk": "United Kingdom"
+    },
+    "relationType": {
+      "positive": "Positive",
+      "neutral": "Neutral",
+      "negative": "Negative"
+    }
+  }
+}
